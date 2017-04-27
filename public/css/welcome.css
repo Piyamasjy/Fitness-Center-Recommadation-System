@@ -1,0 +1,81 @@
+html,body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+img{
+    /*min-height:100%;
+    min-width:100%;
+    height:150px;
+    width:100%;
+    position:absolute;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;*/
+}
+h1,a {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+button {
+    font-size: 60px;
+    margin-left: 140px;
+}
+.background{
+    background: url(../images/bg.jpg);
+    /*height: 700px;*/
+     background-repeat:no-repeat;
+
+    background-size:cover;
+    height: 620px;
+  
+}
+.linkwelcome{
+    text-align: center;
+    height: 100px;
+    margin-top: 200px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-welcome22.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+#to-top {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
